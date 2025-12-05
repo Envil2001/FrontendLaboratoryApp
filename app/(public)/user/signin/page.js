@@ -4,6 +4,7 @@ import {
   signInWithEmailAndPassword,
   setPersistence,
   browserSessionPersistence,
+  signOut,
 } from "firebase/auth";
 import { auth } from "@/app/lib/firebase";
 import { useSearchParams, useRouter } from "next/navigation";
